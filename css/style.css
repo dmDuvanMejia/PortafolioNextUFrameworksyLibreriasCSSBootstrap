@@ -1,0 +1,15 @@
+#nav ul li a:hover{
+    background-color: #F28E74 ;
+}
+
+#container-section{
+    padding-top: 1%;
+}
+
+.comments{
+    align-content: center;
+}
+
+figure{
+    align-self: center;
+}
