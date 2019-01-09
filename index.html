@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="vendor/icon/open-iconic-master/open-iconic-master/font/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <!-- <link rel="stylesheet" href="vendor/css/bootstrap.min.css"> -->
 </head>
 <body>
@@ -95,7 +96,7 @@
                     <div class="col-lg-12 form-group ">  
                         <span class="d-flex comments">  
                             <img src="img/comentario.svg" alt="Comentarios" class="col-sm-1 col-md-1 col-2" width="5%"/>
-                            <textarea name="comments" class="form-control form-control-sm right-column col-sm-11 col-md-11 col-10" rows="1"></textarea>
+                            <textarea name="comments" class="form-control form-control-sm right-column col-sm-11 col-md-11 col-10" rows="1" placeholder="Comentarios"></textarea>
                         </span>
                     </div>
                 </div>  
@@ -134,19 +135,32 @@
                         <div class="col-lg-12 form-group ">  
                             <span class="d-flex comments">  
                                 <img src="img/comentario.svg" alt="Comentarios" class="col-sm-1 col-md-1 col-2" width="5%"/>
-                                <textarea name="comments" class="form-control form-control-sm right-column col-sm-11 col-md-11 col-10" rows="1"></textarea>
+                                <textarea name="comments" class="form-control form-control-sm right-column col-sm-11 col-md-11 col-10" rows="1" placeholder="Comentarios"></textarea>
                             </span>
                         </div>
                 </div> 
             </section>
 
-            <aside class="right-column col-lg-3">
-                <span style="background:cadetblue">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                     Voluptas libero itaque, nam natus accusamus earum porro 
-                     doloremque laboriosam nostrum aut. Dolorem, est! Fugit nam
-                      atque fuga similique optio aliquam reiciendis.
-                </span>
+            <aside class="right-column col-lg-3 d-none d-sm-block">
+                <div class="input-group">
+                    <span class="input-group-text rounded">
+                        <i class="fas fa-search"></i>
+                    </span>
+                    <input type="text" class="typeahead form-control" placeholder="Buscar por...">
+                </div>
+                <div id="songs" class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action">Ayer te vi</a>
+                    <a href="#" class="list-group-item list-group-item-action">Mi vida sin ti</a>
+                    <a href="#" class="list-group-item list-group-item-action">Cada mañana</a>
+                    <a href="#" class="list-group-item list-group-item-action">Suave voz</a>
+                    <a href="#" class="list-group-item list-group-item-action">Tu amistad me hace bien</a>
+                    <a href="#" class="list-group-item list-group-item-action">Gracias padre</a>
+                    <a href="#" class="list-group-item list-group-item-action">Fuiste hecha mujer</a>
+                    <a href="#" class="list-group-item list-group-item-action">Si tù cansado estás</a>
+                    <a href="#" class="list-group-item list-group-item-action">Sigue</a>
+                    <a href="#" class="list-group-item list-group-item-action">Cuando era un niño</a>
+                    <a href="#" class="list-group-item list-group-item-action">Como duele ser humilde</a>
+                </div>
             </aside>
        </div>
 
