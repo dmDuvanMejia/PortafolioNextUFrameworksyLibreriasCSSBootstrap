@@ -17,3 +17,19 @@ figure{
 #songs{
     margin: 2%;
 }
+
+#social-networks{
+    align-self: flex-end;
+}
+
+
+@media (max-width: 582px){
+    #social-networks{
+        width: 100%;
+        text-align: center;
+    }
+
+    #social-networks li a{
+        padding: 0;
+    }
+}
